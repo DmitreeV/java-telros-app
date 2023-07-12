@@ -20,7 +20,6 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
     private final UserMapper userMapper;
 
-
     @Override
     public UserDto getUserByEmail(String email) {
         String query = email.toLowerCase();
